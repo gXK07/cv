@@ -1,0 +1,253 @@
+html {
+  /* -webkit-print-color-adjust: exact; */
+  /* -webkit-filter: opacity(1); */
+}
+
+.App {
+  height: 1170px;
+  width: 827px;
+  /* margin : auto; */
+  box-sizing: border-box;
+  padding: 0 30px 30px 30px ;
+  overflow: hidden;
+  background: linear-gradient(125deg, rgba(241,63,251,0.09427521008403361) 5%, rgba(63,94,251,0.09427521008403361) 24%, rgba(235,235,235,0.15870098039215685) 50%, rgba(255,255,255,0.15870098039215685) 75%);
+}
+
+.top{
+  border-right : none;
+  height: 22%;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+.name{
+  position: absolute;
+  top: 26%;
+  left: 24%;
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color : #333;
+}
+.function{
+  /* position: absolute;
+  top: 48%;
+  left: 30%;
+  font-size: 35px; */
+  padding-top: 10px;
+  color : #737373;
+  font-size: 17px;
+}
+.infotop{
+  width : 35%;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 10%;
+  right: -18px;
+  /* border : solid black 1px; */
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.phonediv , .mailDiv, .Adress{
+  display: flex;
+  width: 100%;
+  border-top : solid #d6d6d6 1px;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+.phone{
+  background-clip: text;
+  font-size: 28px;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient( 
+    90deg
+     , rgb(123 235 75) 0%, rgb(5 113 227) 100%, rgb(255, 203, 57) 200%, rgb(29, 29, 31) 300%);
+     transform: translate(0px, -3px);
+}
+.mail{
+  color : #006ecc;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+  transform: translate(9px, 5px);
+}
+.phonediv{
+  border-top: none !important;
+  justify-content: space-between;
+}
+
+.circle{
+  position: absolute;
+  top: 10%;
+  left: 2%;
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  background-color: red;
+  z-index : -1;
+}
+
+.circle img{
+  padding: 0;
+  margin: 0;
+}
+.apple {
+  z-index: -9999;
+  opacity: 0.05;
+  position: absolute;
+  top : 585px;
+  left : 338px;
+  height: 200px;
+  width: 200px;
+}
+.Job{
+  color : #006ecc;
+  font-size: 28px;
+}
+.time{
+  color : #333;
+  font-size: 18px;
+  font-weight: 500;
+}
+.Company{
+  color : #333;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.Date{
+  font-size: 18px;
+  color : #737373;
+}
+strong{
+  font-size: 16px;
+}
+.bottom{
+  display: flex;
+  justify-content: stretch;
+  height: 80%;
+  width: 100%;
+  box-sizing: border-box;
+  border-top : solid #d6d6d6 1px;
+}
+.formationBigDiv{
+  display: flex;
+  justify-content: stretch;
+  height: 45%;
+  width: 100%;
+  box-sizing: border-box;
+  border-top : solid #d6d6d6 1px;
+}
+.formations{
+  margin-top: 70px;
+  display: flex;
+  justify-content: stretch;
+  width: 100%;
+  box-sizing: border-box;
+  border-top : solid #d6d6d6 1px;
+}
+
+.last{
+  border-bottom: none !important;
+}
+.left{
+  width: 25%;
+  box-sizing: border-box;
+}
+.texte{
+  font-size: 17px;
+  color : #737373;
+  transform: translate(7px, -2px);
+}
+.exp{
+  height: 63%;  
+  margin-bottom: 27px;
+  font-size: 25px;
+}
+.titleExp, .titleFor{ 
+  color : #333;
+  font-weight: 500;
+  /* transform: translate(0px, -30px); */
+  padding-top: 10px;
+  font-size: 28px;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.datesExp{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100%;
+  transform: translate(0px, -7px);
+}
+
+.datesFor{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 90%;
+}
+.exps{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 27px;
+}
+
+.expdiv{
+  border-bottom : solid #d6d6d6 1px;
+  font-size: 30px;
+  padding: 10px 0;
+  margin-left: 20px;
+}
+
+.date{
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 10px;
+  text-align:center;
+  height: 70px;
+}
+
+.titleA{
+  font-size: 10px;
+  color : grey;
+  transform: translate(-8px, 14px);
+}
+
+
+.formation {
+  height: 24%;
+  font-size: 25px;
+}
+.right{
+  width: 75%;
+  box-sizing: border-box;
+  border-left: solid #d6d6d6 1px;
+}
+
+.profile{
+  height: 17%;
+  position: relative;
+}
+.profilePic{
+  position: absolute;
+  top : 10%;
+  margin: 0;
+}
+
+.profilePic img{
+ opacity: 1;
+}
+.profText{
+  padding : 10px 0 0 140px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.pic{
+    transform: translate(9px, -1px);
+}
